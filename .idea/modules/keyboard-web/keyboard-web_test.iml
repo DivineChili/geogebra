@@ -23,6 +23,19 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../keyboard-base/src/main/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="keyboard-base_main" />
+    <orderEntry type="module" module-name="dev_main" />
+    <orderEntry type="module" module-name="common_main" />
+    <orderEntry type="module" module-name="editor-base_main" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
           <root url="file://$MODULE_DIR$/../../../keyboard-base/src/main/java" />
         </CLASSES>
         <JAVADOC />
@@ -32,7 +45,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../../../keyboard-base/src/main/resources" />
+          <root url="file://$MODULE_DIR$/../../../common/src/main/resources" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -86,7 +99,6 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../../../web/dev/src/main/resources" />
           <root url="file://$MODULE_DIR$/../../../web/dev/src/main/java" />
         </CLASSES>
         <JAVADOC />
@@ -96,16 +108,36 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../keyboard-base/src/main/resources" />
+          <root url="file://$MODULE_DIR$/../../../keyboard-base/src/main/java" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../common/src/main/resources" />
+          <root url="file://$MODULE_DIR$/../../../common/src/nonfree/resources" />
+          <root url="file://$MODULE_DIR$/../../../common/src/main/java" />
+          <root url="file://$MODULE_DIR$/../../../common/build/generated/javacc" />
+          <root url="file://$MODULE_DIR$/../../../common/src/main/javacc" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../web/dev/src/main/resources" />
           <root url="file://$MODULE_DIR$/../../../web/dev/src/main/java" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module" module-name="keyboard-base_main" />
-    <orderEntry type="module" module-name="dev_main" />
-    <orderEntry type="module" module-name="common_main" />
-    <orderEntry type="module" module-name="editor-base_main" />
     <orderEntry type="module" module-name="renderer-base_main" />
     <orderEntry type="library" name="Gradle: com.google.j2objc:annotations:1.0.2" level="project" />
     <orderEntry type="library" name="Gradle: com.google.code.findbugs:annotations:3.0.1" level="project" />
@@ -173,38 +205,6 @@
     <orderEntry type="library" name="Gradle: org.apache.commons:commons-lang3:3.4" level="project" />
     <orderEntry type="library" name="Gradle: com.google.gwt:gwt-user:2.8.2" level="project" />
     <orderEntry type="library" name="Gradle: com.google.jsinterop:jsinterop-annotations:1.0.2" level="project" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../../../common/src/main/resources" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../../../keyboard-base/src/main/resources" />
-          <root url="file://$MODULE_DIR$/../../../keyboard-base/src/main/java" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../../../common/src/main/resources" />
-          <root url="file://$MODULE_DIR$/../../../common/src/nonfree/resources" />
-          <root url="file://$MODULE_DIR$/../../../common/src/main/java" />
-          <root url="file://$MODULE_DIR$/../../../common/build/generated/javacc" />
-          <root url="file://$MODULE_DIR$/../../../common/src/main/javacc" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
     <orderEntry type="library" name="Gradle: com.google.jsinterop:jsinterop-annotations:sources:1.0.2" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="keyboard-web_main" />

@@ -20,6 +20,7 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module" module-name="renderer-web_main" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
@@ -29,6 +30,7 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module" module-name="editor-base_main" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
@@ -38,7 +40,6 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module" module-name="renderer-web_main" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
@@ -48,7 +49,6 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module" module-name="editor-base_main" />
     <orderEntry type="library" name="Gradle: com.google.gwt:gwt-dev:2.8.2" level="project" />
     <orderEntry type="library" name="Gradle: com.google.gwt:gwt-user:2.8.2" level="project" />
     <orderEntry type="library" name="Gradle: junit:junit:4.12" level="project" />

@@ -23,7 +23,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/retex/editor-web/editor-web.iml" filepath="$PROJECT_DIR$/.idea/modules/retex/editor-web/editor-web.iml" group="editor-web" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/retex/editor-web/editor-web_main.iml" filepath="$PROJECT_DIR$/.idea/modules/retex/editor-web/editor-web_main.iml" group="editor-web" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/retex/editor-web/editor-web_test.iml" filepath="$PROJECT_DIR$/.idea/modules/retex/editor-web/editor-web_test.iml" group="editor-web" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/geogebra.iml" filepath="$PROJECT_DIR$/.idea/modules/geogebra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/geogebra.iml" filepath="$PROJECT_DIR$/geogebra.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ggbjdk/ggbjdk.iml" filepath="$PROJECT_DIR$/.idea/modules/ggbjdk/ggbjdk.iml" group="ggbjdk" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ggbjdk/ggbjdk_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ggbjdk/ggbjdk_main.iml" group="ggbjdk" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ggbjdk/ggbjdk_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ggbjdk/ggbjdk_test.iml" group="ggbjdk" />
