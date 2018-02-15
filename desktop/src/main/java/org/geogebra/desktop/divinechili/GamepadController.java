@@ -5,11 +5,11 @@ import com.studiohartman.jamepad.ControllerState;
 
 public class GamepadController implements Runnable
 {
-    private static ControllerManager controllers = null;
+    private static final float tolerance = 0.1f;
 
     @Override
     public void run() {
-        controllers = new ControllerManager();
+        ControllerManager controllers = new ControllerManager();
         controllers.initSDLGamepad();
 
         while(true) {
@@ -19,6 +19,27 @@ public class GamepadController implements Runnable
                 System.out.println("Controller is not connected!");
                 break;
             }
+
+            // Axis-events
+            // Left Joystick is outside of idle zone
+            if(currState.leftStickY > tolerance || currState.leftStickY < -tolerance ||
+                    currState.leftStickX >tolerance || currState.leftStickX < -tolerance)
+            {
+                System.out.println("Left  Joystick { X: " + currState.leftStickX + "\tY: " + currState.leftStickY);
+                // TODO: Add event dispatcher for listeners here
+            }
+            // Right Joystick is outside of idle zone
+            if (currState.rightStickY > tolerance || currState.rightStickY < -tolerance ||
+                    currState.rightStickX > tolerance || currState.rightStickX < -tolerance)
+            {
+                System.out.println("Right Joystick { X: " + currState.leftStickX + "\tY: " + currState.rightStickY);
+                // TODO: Add event dispatcher for listeners here
+            }
+
+
+            // Button-events
+            // Right
+
         }
     }
 }
