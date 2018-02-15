@@ -1105,6 +1105,7 @@ public class AppD extends App implements KeyEventDispatcher {
 
 	@SuppressFBWarnings({ "DM_EXIT", "" })
 	public static void exit(int i) {
+		
 		System.exit(i);
 	}
 

@@ -42,6 +42,9 @@ List ext = [
 	'com.ogprover:OpenGeoProver:20120725',
 	'com.sun:jna:4.1.0']
 
+repositories {
+    maven { url "https://jitpack.io" }
+}
 
 dependencies {
 	compile project(':common')
@@ -50,6 +53,7 @@ dependencies {
 	compile project(':jogl2')
 	compile project(':input3D:impl')
 	compile project(':giac-jni')
+    compile 'com.github.WilliamAHartman:Jamepad:1.1'
 	compile ext, files(jfxrtLocation)
 
 	runtime "com.jogamp:jogl-all:$joglVersion:natives-linux-amd64",
