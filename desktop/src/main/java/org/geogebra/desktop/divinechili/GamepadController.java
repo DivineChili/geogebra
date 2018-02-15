@@ -5,7 +5,7 @@ import com.studiohartman.jamepad.ControllerState;
 
 public class GamepadController implements Runnable
 {
-    private static final float tolerance = 0.1f;
+    private static final float tolerance = 0.13f;
 
     @Override
     public void run() {
@@ -32,7 +32,7 @@ public class GamepadController implements Runnable
             if (currState.rightStickY > tolerance || currState.rightStickY < -tolerance ||
                     currState.rightStickX > tolerance || currState.rightStickX < -tolerance)
             {
-                System.out.println("Right Joystick { X: " + currState.leftStickX + "\tY: " + currState.rightStickY);
+                System.out.println("Right Joystick { X: " + currState.rightStickX + "\tY: " + currState.rightStickY);
                 // TODO: Add event dispatcher for listeners here
             }
 
