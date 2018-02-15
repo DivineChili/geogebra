@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: com.jogamp:jogl-all:natives-windows-i586:2.2.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jogamp/jogl-all/2.2.0/ffb5a9400efe9bf8db74b61f1b82c3d68d8ce243/jogl-all-2.2.0-natives-windows-i586.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

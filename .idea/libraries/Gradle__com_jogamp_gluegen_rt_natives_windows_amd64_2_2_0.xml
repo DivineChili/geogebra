@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: com.jogamp:gluegen-rt:natives-windows-amd64:2.2.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jogamp/gluegen-rt/2.2.0/2130ffe9d9372736ebd205e298a78339ca6831e9/gluegen-rt-2.2.0-natives-windows-amd64.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

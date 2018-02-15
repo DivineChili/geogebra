@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: com.jogamp:gluegen-rt:natives-macosx-universal:2.2.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jogamp/gluegen-rt/2.2.0/7d62f5c9f6dd1a550d0b3d1d5b40a31d6b86d5cc/gluegen-rt-2.2.0-natives-macosx-universal.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

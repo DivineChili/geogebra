@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.googlecode.gwtphonegap:gwtphonegap:3.5.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.gwtphonegap/gwtphonegap/3.5.0.1/d6012bc1811212768e35615addff757677745b21/gwtphonegap-3.5.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.gwtphonegap/gwtphonegap/3.5.0.1/40fea363884e526b7ed63c70207e3bfe479daf35/gwtphonegap-3.5.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
