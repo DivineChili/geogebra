@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":input3D:impl:test" external.linked.project.path="$MODULE_DIR$/../../../../input3D/impl" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="geogebra.input3D" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
+    <output-test url="file://$MODULE_DIR$/../../../../input3D/impl/out/test/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../input3D/impl/src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../input3D/impl/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../input3D/impl/src/test/resources" type="java-test-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="impl_main" />
+    <orderEntry type="module" module-name="common-jre_main" />
+    <orderEntry type="module" module-name="common_main" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-server:9.0.5.v20130815" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-client:9.0.5.v20130815" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-common:9.0.5.v20130815" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-io:9.3.0.M2" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-http:9.0.5.v20130815" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-util:9.3.0.M2" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-servlet:9.0.5.v20130815" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-api:9.0.5.v20130815" level="project" />
+    <orderEntry type="library" name="Gradle: intel.rssdk:libpxcclr:20150901" level="project" />
+    <orderEntry type="library" name="Gradle: com.zspace:zspace:20151207" level="project" />
+    <orderEntry type="module" module-name="editor-base_main" />
+    <orderEntry type="module" module-name="renderer-base_main" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: intel.rssdk:libpxcclr:natives-windows-amd64:20150901" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.j2objc:annotations:1.0.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: intel.rssdk:libpxcclr:natives-windows-i586:20150901" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.findbugs:annotations:3.0.1" level="project" />
+    <orderEntry type="module" module-name="giac-jni_main" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.zspace:zspace:natives-windows-i586:20151207" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.zspace:zspace:natives-windows-amd64:20151207" level="project" />
+  </component>
+  <component name="TestModuleProperties" production-module="impl_main" />
+</module>

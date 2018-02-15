@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":editor-base:main" external.linked.project.path="$MODULE_DIR$/../../../../retex/editor-base" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="com.himamis.retex" external.system.module.type="sourceSet" external.system.module.version="0.1" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
+    <output url="file://$MODULE_DIR$/../../../../retex/editor-base/out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../retex/editor-base/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../retex/editor-base/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../retex/editor-base/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="renderer-base_main" />
+    <orderEntry type="library" name="Gradle: com.google.j2objc:annotations:1.0.2" level="project" />
+  </component>
+</module>

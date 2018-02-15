@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common.iml" group="common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-jre/common-jre.iml" filepath="$PROJECT_DIR$/.idea/modules/common-jre/common-jre.iml" group="common-jre" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-jre/common-jre_main.iml" filepath="$PROJECT_DIR$/.idea/modules/common-jre/common-jre_main.iml" group="common-jre" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-jre/common-jre_test.iml" filepath="$PROJECT_DIR$/.idea/modules/common-jre/common-jre_test.iml" group="common-jre" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common_main.iml" group="common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common_test.iml" group="common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop/desktop.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop/desktop.iml" group="desktop" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop/desktop_main.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop/desktop_main.iml" group="desktop" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop/desktop_test.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop/desktop_test.iml" group="desktop" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web/dev/dev.iml" filepath="$PROJECT_DIR$/.idea/modules/web/dev/dev.iml" group="web/dev" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web/dev/dev_main.iml" filepath="$PROJECT_DIR$/.idea/modules/web/dev/dev_main.iml" group="web/dev" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web/dev/dev_test.iml" filepath="$PROJECT_DIR$/.idea/modules/web/dev/dev_test.iml" group="web/dev" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/retex/editor-base/editor-base.iml" filepath="$PROJECT_DIR$/.idea/modules/retex/editor-base/editor-base.iml" group="editor-base" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/retex/editor-base/editor-base_main.iml" filepath="$PROJECT_DIR$/.idea/modules/retex/editor-base/editor-base_main.iml" group="editor-base" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/retex/editor-base/editor-base_test.iml" filepath="$PROJECT_DIR$/.idea/modules/retex/editor-base/editor-base_test.iml" group="editor-base" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/retex/editor-desktop/editor-desktop.iml" filepath="$PROJECT_DIR$/.idea/modules/retex/editor-desktop/editor-desktop.iml" group="editor-desktop" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/retex/editor-desktop/editor-desktop_main.iml" filepath="$PROJECT_DIR$/.idea/modules/retex/editor-desktop/editor-desktop_main.iml" group="editor-desktop" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/retex/editor-desktop/editor-desktop_test.iml" filepath="$PROJECT_DIR$/.idea/modules/retex/editor-desktop/editor-desktop_test.iml" group="editor-desktop" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/retex/editor-web/editor-web.iml" filepath="$PROJECT_DIR$/.idea/modules/retex/editor-web/editor-web.iml" group="editor-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/retex/editor-web/editor-web_main.iml" filepath="$PROJECT_DIR$/.idea/modules/retex/editor-web/editor-web_main.iml" group="editor-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/retex/editor-web/editor-web_test.iml" filepath="$PROJECT_DIR$/.idea/modules/retex/editor-web/editor-web_test.iml" group="editor-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/geogebra.iml" filepath="$PROJECT_DIR$/.idea/modules/geogebra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ggbjdk/ggbjdk.iml" filepath="$PROJECT_DIR$/.idea/modules/ggbjdk/ggbjdk.iml" group="ggbjdk" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ggbjdk/ggbjdk_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ggbjdk/ggbjdk_main.iml" group="ggbjdk" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ggbjdk/ggbjdk_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ggbjdk/ggbjdk_test.iml" group="ggbjdk" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/giac-jni/giac-jni.iml" filepath="$PROJECT_DIR$/.idea/modules/giac-jni/giac-jni.iml" group="giac-jni" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/giac-jni/giac-jni_main.iml" filepath="$PROJECT_DIR$/.idea/modules/giac-jni/giac-jni_main.iml" group="giac-jni" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/giac-jni/giac-jni_test.iml" filepath="$PROJECT_DIR$/.idea/modules/giac-jni/giac-jni_test.iml" group="giac-jni" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/input3D/impl/impl.iml" filepath="$PROJECT_DIR$/.idea/modules/input3D/impl/impl.iml" group="input3D/impl" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/input3D/impl/impl_main.iml" filepath="$PROJECT_DIR$/.idea/modules/input3D/impl/impl_main.iml" group="input3D/impl" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/input3D/impl/impl_test.iml" filepath="$PROJECT_DIR$/.idea/modules/input3D/impl/impl_test.iml" group="input3D/impl" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/input3D/input3D.iml" filepath="$PROJECT_DIR$/.idea/modules/input3D/input3D.iml" group="input3D" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/input3D/input3D_main.iml" filepath="$PROJECT_DIR$/.idea/modules/input3D/input3D_main.iml" group="input3D" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/input3D/input3D_test.iml" filepath="$PROJECT_DIR$/.idea/modules/input3D/input3D_test.iml" group="input3D" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jogl2/jogl2.iml" filepath="$PROJECT_DIR$/.idea/modules/jogl2/jogl2.iml" group="jogl2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jogl2/jogl2_main.iml" filepath="$PROJECT_DIR$/.idea/modules/jogl2/jogl2_main.iml" group="jogl2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jogl2/jogl2_test.iml" filepath="$PROJECT_DIR$/.idea/modules/jogl2/jogl2_test.iml" group="jogl2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/keyboard-base/keyboard-base.iml" filepath="$PROJECT_DIR$/.idea/modules/keyboard-base/keyboard-base.iml" group="keyboard-base" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/keyboard-base/keyboard-base_main.iml" filepath="$PROJECT_DIR$/.idea/modules/keyboard-base/keyboard-base_main.iml" group="keyboard-base" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/keyboard-base/keyboard-base_test.iml" filepath="$PROJECT_DIR$/.idea/modules/keyboard-base/keyboard-base_test.iml" group="keyboard-base" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/keyboard-web/keyboard-web.iml" filepath="$PROJECT_DIR$/.idea/modules/keyboard-web/keyboard-web.iml" group="keyboard-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/keyboard-web/keyboard-web_main.iml" filepath="$PROJECT_DIR$/.idea/modules/keyboard-web/keyboard-web_main.iml" group="keyboard-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/keyboard-web/keyboard-web_test.iml" filepath="$PROJECT_DIR$/.idea/modules/keyboard-web/keyboard-web_test.iml" group="keyboard-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/retex/renderer-base/renderer-base.iml" filepath="$PROJECT_DIR$/.idea/modules/retex/renderer-base/renderer-base.iml" group="renderer-base" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/retex/renderer-base/renderer-base_main.iml" filepath="$PROJECT_DIR$/.idea/modules/retex/renderer-base/renderer-base_main.iml" group="renderer-base" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/retex/renderer-base/renderer-base_test.iml" filepath="$PROJECT_DIR$/.idea/modules/retex/renderer-base/renderer-base_test.iml" group="renderer-base" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/retex/renderer-desktop/renderer-desktop.iml" filepath="$PROJECT_DIR$/.idea/modules/retex/renderer-desktop/renderer-desktop.iml" group="renderer-desktop" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/retex/renderer-desktop/renderer-desktop_main.iml" filepath="$PROJECT_DIR$/.idea/modules/retex/renderer-desktop/renderer-desktop_main.iml" group="renderer-desktop" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/retex/renderer-desktop/renderer-desktop_test.iml" filepath="$PROJECT_DIR$/.idea/modules/retex/renderer-desktop/renderer-desktop_test.iml" group="renderer-desktop" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/retex/renderer-web/renderer-web.iml" filepath="$PROJECT_DIR$/.idea/modules/retex/renderer-web/renderer-web.iml" group="renderer-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/retex/renderer-web/renderer-web_main.iml" filepath="$PROJECT_DIR$/.idea/modules/retex/renderer-web/renderer-web_main.iml" group="renderer-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/retex/renderer-web/renderer-web_test.iml" filepath="$PROJECT_DIR$/.idea/modules/retex/renderer-web/renderer-web_test.iml" group="renderer-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/input3D/stub/stub.iml" filepath="$PROJECT_DIR$/.idea/modules/input3D/stub/stub.iml" group="input3D/stub" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/input3D/stub/stub_main.iml" filepath="$PROJECT_DIR$/.idea/modules/input3D/stub/stub_main.iml" group="input3D/stub" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/input3D/stub/stub_test.iml" filepath="$PROJECT_DIR$/.idea/modules/input3D/stub/stub_test.iml" group="input3D/stub" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test/test.iml" filepath="$PROJECT_DIR$/.idea/modules/test/test.iml" group="test" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test/test_main.iml" filepath="$PROJECT_DIR$/.idea/modules/test/test_main.iml" group="test" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test/test_test.iml" filepath="$PROJECT_DIR$/.idea/modules/test/test_test.iml" group="test" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web/web.iml" filepath="$PROJECT_DIR$/.idea/modules/web/web.iml" group="web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web/web_main.iml" filepath="$PROJECT_DIR$/.idea/modules/web/web_main.iml" group="web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web/web_test.iml" filepath="$PROJECT_DIR$/.idea/modules/web/web_test.iml" group="web" />
+    </modules>
+  </component>
+</project>

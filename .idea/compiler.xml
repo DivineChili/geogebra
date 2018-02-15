@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="common-jre_main" target="1.7" />
+      <module name="common-jre_test" target="1.7" />
+      <module name="common_main" target="1.7" />
+      <module name="common_test" target="1.7" />
+      <module name="desktop_main" target="1.7" />
+      <module name="desktop_test" target="1.7" />
+      <module name="dev_main" target="1.8" />
+      <module name="dev_test" target="1.8" />
+      <module name="editor-base_main" target="1.7" />
+      <module name="editor-base_test" target="1.7" />
+      <module name="editor-desktop_main" target="1.7" />
+      <module name="editor-desktop_test" target="1.7" />
+      <module name="editor-web_main" target="1.7" />
+      <module name="editor-web_test" target="1.7" />
+      <module name="ggbjdk_main" target="1.7" />
+      <module name="ggbjdk_test" target="1.7" />
+      <module name="giac-jni_main" target="1.7" />
+      <module name="giac-jni_test" target="1.7" />
+      <module name="impl_main" target="1.7" />
+      <module name="impl_test" target="1.7" />
+      <module name="input3D_main" target="1.8" />
+      <module name="input3D_test" target="1.8" />
+      <module name="jogl2_main" target="1.7" />
+      <module name="jogl2_test" target="1.7" />
+      <module name="keyboard-base_main" target="1.7" />
+      <module name="keyboard-base_test" target="1.7" />
+      <module name="keyboard-web_main" target="1.7" />
+      <module name="keyboard-web_test" target="1.7" />
+      <module name="renderer-base_main" target="1.7" />
+      <module name="renderer-base_test" target="1.7" />
+      <module name="renderer-desktop_main" target="1.7" />
+      <module name="renderer-desktop_test" target="1.7" />
+      <module name="renderer-web_main" target="1.7" />
+      <module name="renderer-web_test" target="1.7" />
+      <module name="stub_main" target="1.7" />
+      <module name="stub_test" target="1.7" />
+      <module name="test_main" target="1.8" />
+      <module name="test_test" target="1.8" />
+      <module name="web_main" target="1.7" />
+      <module name="web_test" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
