@@ -15,7 +15,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://C:/Program Files/Java/jdk1.8.0_112/jre/lib/ext/jfxrt.jar!/" />
+          <root url="jar://C:/Program Files/Java/jdk1.8.0_162/jre/lib/ext/jfxrt.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -51,21 +51,21 @@
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.jogamp:gluegen-rt:natives-windows-i586:2.2.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.jogamp:gluegen-rt:natives-windows-amd64:2.2.0" level="project" />
     <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-io:9.3.0.M2" level="project" />
-    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-http:9.0.5.v20130815" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.jogamp:gluegen-rt:natives-macosx-universal:2.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-http:9.0.5.v20130815" level="project" />
     <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-util:9.3.0.M2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.jogamp:gluegen-rt:natives-linux-i586:2.2.0" level="project" />
     <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-servlet:9.0.5.v20130815" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: fr.ujf-grenoble:javagiac:natives-linux-amd64:59689" level="project" />
     <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-api:9.0.5.v20130815" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: fr.ujf-grenoble:javagiac:natives-linux-i586:59689" level="project" />
     <orderEntry type="library" name="Gradle: intel.rssdk:libpxcclr:20150901" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: fr.ujf-grenoble:javagiac:natives-linux-i586:59689" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: fr.ujf-grenoble:javagiac:natives-windows-amd64:59689" level="project" />
     <orderEntry type="library" name="Gradle: intel.rssdk:libpxcclr:natives-windows-amd64:20150901" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: fr.ujf-grenoble:javagiac:natives-windows-i586:59689" level="project" />
     <orderEntry type="library" name="Gradle: intel.rssdk:libpxcclr:natives-windows-i586:20150901" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: fr.ujf-grenoble:javagiac:natives-macosx-universal:59689" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: fr.ujf-grenoble:javagiac:natives-windows-i586:59689" level="project" />
     <orderEntry type="library" name="Gradle: com.zspace:zspace:20151207" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: fr.ujf-grenoble:javagiac:natives-macosx-universal:59689" level="project" />
     <orderEntry type="library" name="Gradle: com.zspace:zspace:natives-windows-i586:20151207" level="project" />
     <orderEntry type="library" name="Gradle: com.zspace:zspace:natives-windows-amd64:20151207" level="project" />
     <orderEntry type="library" name="Gradle: com.badlogicgames.gdx:gdx-jnigen:1.9.2" level="project" />
