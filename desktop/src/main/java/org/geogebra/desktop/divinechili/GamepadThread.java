@@ -2,10 +2,24 @@ package org.geogebra.desktop.divinechili;
 
 import com.studiohartman.jamepad.ControllerManager;
 import com.studiohartman.jamepad.ControllerState;
+import javafx.application.Application;
+import javafx.stage.Stage;
+import org.geogebra.desktop.main.AppD;
 
-public class GamepadController implements Runnable
+import java.awt.*;
+
+public class GamepadThread extends Thread
 {
     private static final float tolerance = 0.13f;
+
+    AppD app;
+    Stage stage;
+
+    public GamepadThread(AppD app, Stage stage) {
+        super();
+        this.app = app;
+        this.stage = stage;
+    }
 
     @Override
     public void run() {
@@ -50,6 +64,7 @@ public class GamepadController implements Runnable
                 }
                 if (currState.y) {
                     System.out.println("Button Y pressed");
+
                 }
 
                 // D-Pad
@@ -71,6 +86,9 @@ public class GamepadController implements Runnable
                 if (dpadX != 0.0f) System.out.println("D-pad X: "+ dpadX);
                 if (dpadY != 0.0f) System.out.println("D-pad Y: "+ dpadY);
 
+                // Update delay to reduce event spam
+                try { Thread.sleep(50); }
+                catch (InterruptedException e) {e.printStackTrace();};
             }
             while (true) {
                 controllers = new ControllerManager();
@@ -89,4 +107,5 @@ public class GamepadController implements Runnable
             }
         }
     }
+
 }

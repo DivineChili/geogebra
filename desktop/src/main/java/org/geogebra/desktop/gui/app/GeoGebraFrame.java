@@ -70,7 +70,8 @@ import org.geogebra.common.util.StringUtil;
 import org.geogebra.common.util.debug.Log;
 import org.geogebra.desktop.AppId;
 import org.geogebra.desktop.CommandLineArguments;
-import org.geogebra.desktop.divinechili.GamepadController;
+import org.geogebra.desktop.divinechili.FXAppWrapper;
+import org.geogebra.desktop.divinechili.GamepadThread;
 import org.geogebra.desktop.euclidianND.EuclidianViewInterfaceD;
 import org.geogebra.desktop.export.GraphicExportDialog;
 import org.geogebra.desktop.geogebra3D.euclidian3D.EuclidianView3DD;
@@ -504,10 +505,10 @@ public class GeoGebraFrame extends JFrame
 			 */
 			Thread runner = GeoGebraFrame.createAppThread(app);
 			runner.start();
-
-			// Initialize and start gamepad-handling
-			Thread gamepadThread = new Thread(new GamepadController());
+			Thread gamepadThread = new GamepadThread(app, FXAppWrapper.ProgramWrapper);
 			gamepadThread.start();
+            FXAppWrapper.gamepadThread = gamepadThread;
+            FXAppWrapper.appRef = app;
 		}
 
 		checkCommandLineExport(app);
