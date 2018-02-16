@@ -17,6 +17,8 @@ public class GamepadController implements Runnable
 
                 if (!currState.isConnected) {
                     System.out.println("Controller is not connected!");
+                    try { Thread.sleep(200); }
+                    catch (InterruptedException e) { e.printStackTrace(); }
                     break;
                 }
 
@@ -36,7 +38,38 @@ public class GamepadController implements Runnable
 
 
                 // Button-events
-                // Right
+                // ABXY
+                if (currState.a) {
+                    System.out.println("Button A pressed");
+                }
+                if (currState.b) {
+                    System.out.println("Button B pressed");
+                }
+                if (currState.x) {
+                    System.out.println("Button X pressed");
+                }
+                if (currState.y) {
+                    System.out.println("Button Y pressed");
+                }
+
+                // D-Pad
+                float dpadX = 0.0f;
+                float dpadY = 0.0f;
+                if (currState.dpadUp) {
+                    dpadX++;
+                }
+                if (currState.dpadDown) {
+                    dpadX--;
+                }
+                if (currState.dpadLeft) {
+                    dpadY++;
+                }
+                if (currState.dpadRight) {
+                    dpadY--;
+                }
+
+                if (dpadX != 0.0f) System.out.println("D-pad X: "+ dpadX);
+                if (dpadY != 0.0f) System.out.println("D-pad Y: "+ dpadY);
 
             }
             while (true) {
