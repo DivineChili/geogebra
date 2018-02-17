@@ -1,13 +1,13 @@
-package org.geogebra.desktop.divinechili;
+package org.divinechili.hack;
 
 import geogebra.GeoGebra3D;
 import javafx.application.Application;
-import javafx.event.ActionEvent;
+import javafx.beans.property.BooleanProperty;
+import javafx.beans.property.SimpleBooleanProperty;
 import javafx.event.EventHandler;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.TextField;
-import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
 import org.geogebra.desktop.main.AppD;
@@ -21,13 +21,18 @@ public class FXAppWrapper extends Application
     public static Stage ProgramWrapper = null;
     public static AppD appRef = null;
     public static Thread gamepadThread = null;
+    public static MidiSoundD midiSequencer = null;
+    public static BooleanProperty bControllerConnected;
 
     private boolean playingMidi = false;
 
     @Override
     public void start(Stage primaryStage) throws Exception {
+        primaryStage.setTitle("GeoGebra Hack!");
         System.out.println("JavaFX initialization phase started successfully!");
         FXAppWrapper.ProgramWrapper = primaryStage;
+        bControllerConnected = new SimpleBooleanProperty(true);
+
         // Start geogebra
         EventQueue.invokeAndWait(new Runnable() {
             @Override
@@ -35,36 +40,18 @@ public class FXAppWrapper extends Application
                 GeoGebra3D.main(null);
             }
         });
+        midiSequencer = new MidiSoundD(appRef);
+        midiSequencer.initialize();
 
         primaryStage.setOnCloseRequest(new EventHandler<WindowEvent>() {
             @Override
             public void handle(WindowEvent event) {
-                event.consume();
                 System.exit(0);
             }
         });
 
-        HBox panel = new HBox();
-        final TextField midiFile = new TextField();
-        midiFile.setPromptText("Midi file...");
-        final Button playMidi = new Button(new String("►"));
-        panel.getChildren().addAll(midiFile,playMidi);
-
-        final MidiSoundD sequencer = new MidiSoundD(appRef);
-        sequencer.initialize();
-        playMidi.setOnAction(new EventHandler<ActionEvent>() {
-            @Override
-            public void handle(ActionEvent event) {
-                playingMidi = !playingMidi;
-                if(playingMidi) {
-                    sequencer.playMidiFile(midiFile.getText());
-                } else if (!playingMidi) {
-                    sequencer.stop();
-                }
-            }
-        });
-
-        primaryStage.setScene(new Scene(panel));
+        Parent fxml = FXMLLoader.load(getClass().getResource("/wrapperGUI.fxml"));
+        primaryStage.setScene(new Scene(fxml));
         primaryStage.show();
     }
 }

@@ -1,12 +1,9 @@
-package org.geogebra.desktop.divinechili;
+package org.divinechili.hack;
 
 import com.studiohartman.jamepad.ControllerManager;
 import com.studiohartman.jamepad.ControllerState;
-import javafx.application.Application;
 import javafx.stage.Stage;
 import org.geogebra.desktop.main.AppD;
-
-import java.awt.*;
 
 public class GamepadThread extends Thread
 {
@@ -31,6 +28,7 @@ public class GamepadThread extends Thread
 
                 if (!currState.isConnected) {
                     System.out.println("Controller is not connected!");
+                    FXAppWrapper.bControllerConnected.setValue(false);
                     try { Thread.sleep(200); }
                     catch (InterruptedException e) { e.printStackTrace(); }
                     break;
@@ -95,6 +93,7 @@ public class GamepadThread extends Thread
                 controllers.initSDLGamepad();
                 if (controllers.getNumControllers() > 0) {
                     System.out.println("Controller detected!");
+                    FXAppWrapper.bControllerConnected.setValue(true);
                     break;
                 } else {
                     System.out.println("No controller detected...");

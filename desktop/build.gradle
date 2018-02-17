@@ -76,7 +76,7 @@ dependencies {
 	testCompile 'junit:junit:4.+'
 }
 
-mainClassName = "org.geogebra.desktop.divinechili.FXAppWrapper"
+mainClassName = "org.divinechili.hack.FXAppWrapper"
 
 run {
     // Copying JOGL related native JARs into the same directory where the non-native JAR takes place.
