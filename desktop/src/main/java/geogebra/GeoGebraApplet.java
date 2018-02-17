@@ -1063,4 +1063,9 @@ public class GeoGebraApplet extends JApplet implements JavaScriptAPI {
 		return getGgbApi().exportObj(xmin, xmax, ymin, ymax, zmin, zmax, xyScale, xzScale, xTickDistance, yTickDistance,
 				zTickDistance);
 	}
+
+	@Override
+	public void printMsg(String message) {
+		System.out.println(message);
+	}
 }

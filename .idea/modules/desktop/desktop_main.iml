@@ -34,8 +34,8 @@
     <orderEntry type="library" name="Gradle: com.sun:jna:4.1.0" level="project" />
     <orderEntry type="module" module-name="editor-base_main" />
     <orderEntry type="module" module-name="renderer-desktop_main" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.jogamp:jogl-all:natives-linux-amd64:2.2.0" level="project" />
     <orderEntry type="module" module-name="renderer-base_main" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.jogamp:jogl-all:natives-linux-amd64:2.2.0" level="project" />
     <orderEntry type="library" name="Gradle: com.google.j2objc:annotations:1.0.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.jogamp:jogl-all:natives-windows-i586:2.2.0" level="project" />
     <orderEntry type="library" name="Gradle: com.google.code.findbugs:annotations:3.0.1" level="project" />
@@ -49,8 +49,8 @@
     <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-client:9.0.5.v20130815" level="project" />
     <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-common:9.0.5.v20130815" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.jogamp:gluegen-rt:natives-windows-i586:2.2.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-io:9.3.0.M2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.jogamp:gluegen-rt:natives-windows-amd64:2.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-io:9.3.0.M2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.jogamp:gluegen-rt:natives-macosx-universal:2.2.0" level="project" />
     <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-http:9.0.5.v20130815" level="project" />
     <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-util:9.3.0.M2" level="project" />
@@ -58,14 +58,14 @@
     <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-servlet:9.0.5.v20130815" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: fr.ujf-grenoble:javagiac:natives-linux-amd64:59689" level="project" />
     <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-api:9.0.5.v20130815" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: fr.ujf-grenoble:javagiac:natives-linux-i586:59689" level="project" />
     <orderEntry type="library" name="Gradle: intel.rssdk:libpxcclr:20150901" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: fr.ujf-grenoble:javagiac:natives-linux-i586:59689" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: fr.ujf-grenoble:javagiac:natives-windows-amd64:59689" level="project" />
     <orderEntry type="library" name="Gradle: intel.rssdk:libpxcclr:natives-windows-amd64:20150901" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: fr.ujf-grenoble:javagiac:natives-windows-i586:59689" level="project" />
     <orderEntry type="library" name="Gradle: intel.rssdk:libpxcclr:natives-windows-i586:20150901" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: fr.ujf-grenoble:javagiac:natives-macosx-universal:59689" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: fr.ujf-grenoble:javagiac:natives-windows-i586:59689" level="project" />
     <orderEntry type="library" name="Gradle: com.zspace:zspace:20151207" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: fr.ujf-grenoble:javagiac:natives-macosx-universal:59689" level="project" />
     <orderEntry type="library" name="Gradle: com.zspace:zspace:natives-windows-i586:20151207" level="project" />
     <orderEntry type="library" name="Gradle: com.zspace:zspace:natives-windows-amd64:20151207" level="project" />
     <orderEntry type="library" name="Gradle: com.badlogicgames.gdx:gdx-jnigen:1.9.2" level="project" />
