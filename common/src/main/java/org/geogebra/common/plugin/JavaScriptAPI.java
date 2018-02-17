@@ -841,4 +841,6 @@ public interface JavaScriptAPI {
 	 */
 	public String exportObj(double xmin, double xmax, double ymin, double ymax, double zmin, double zmax,
 			double xyScale, double xzScale, double xTickDistance, double yTickDistance, double zTickDistance);
+
+	public void printMsg(String message);
 }

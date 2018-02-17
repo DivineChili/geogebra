@@ -2284,4 +2284,11 @@ public abstract class GgbAPI implements JavaScriptAPI {
 		// not implemented in Android, iOS
 	}
 
+	/**
+	 * Prints a debug message to console.
+	 */
+	@Override
+	public void printMsg(String message) {
+		System.out.println(message);
+	}
 }
