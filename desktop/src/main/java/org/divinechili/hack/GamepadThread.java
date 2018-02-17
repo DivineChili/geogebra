@@ -1,5 +1,6 @@
 package org.divinechili.hack;
 
+import com.himamis.retex.renderer.share.platform.FontAdapter;
 import com.studiohartman.jamepad.ControllerManager;
 import com.studiohartman.jamepad.ControllerState;
 import javafx.stage.Stage;
@@ -31,7 +32,7 @@ public class GamepadThread extends Thread
 
         while (true) {
             while (true) {
-                jsManager.callJavaScript("tick", a);
+                //jsManager.callJavaScript("tick", a);
                 currState = controllers.getState(0);
 
                 if (!currState.isConnected) {
