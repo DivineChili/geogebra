@@ -1,6 +1,7 @@
 package org.divinechili.hack.gui;
 
 import javafx.beans.property.BooleanProperty;
+import javafx.beans.property.SimpleBooleanProperty;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
@@ -18,7 +19,6 @@ public class GUI  {
     public Button testAlert;
     @FXML
     public Label controllerStatus;
-
 
     private boolean playingMidi = false;
 
@@ -43,8 +43,19 @@ public class GUI  {
             }
         });
 
-
-
+        FXAppWrapper.bControllerConnected.addListener(new ChangeListener() {
+            @Override
+            public void changed(ObservableValue observable, Object oldValue, Object newValue) {
+                if((Boolean)newValue) {
+                    controllerStatus.setStyle("color: #00FF00");
+                    controllerStatus.setText("Connected!");
+                } else {
+                    controllerStatus.setStyle("color: #FF0000");
+                    controllerStatus.setText("Disconnected!");
+                }
+            }
+        });
+        /*
         FXAppWrapper.bControllerConnected.addListener(new ChangeListener<Boolean>() {
             @Override
             public void changed(ObservableValue<? extends Boolean> observable, Boolean oldValue, Boolean newValue) {
@@ -57,5 +68,6 @@ public class GUI  {
                 }
             }
         });
+        */
     }
 }

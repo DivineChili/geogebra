@@ -10,10 +10,12 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
+import org.divinechili.hack.variables.ObservableAtomicBoolean;
 import org.geogebra.desktop.main.AppD;
 import org.geogebra.desktop.sound.MidiSoundD;
 
 import java.awt.*;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 public class FXAppWrapper extends Application
 {
@@ -22,7 +24,7 @@ public class FXAppWrapper extends Application
     public static AppD appRef = null;
     public static Thread gamepadThread = null;
     public static MidiSoundD midiSequencer = null;
-    public static BooleanProperty bControllerConnected;
+    public static final ObservableAtomicBoolean bControllerConnected = new ObservableAtomicBoolean();
 
     private boolean playingMidi = false;
 
@@ -31,7 +33,7 @@ public class FXAppWrapper extends Application
         primaryStage.setTitle("GeoGebra Hack!");
         System.out.println("JavaFX initialization phase started successfully!");
         FXAppWrapper.ProgramWrapper = primaryStage;
-        bControllerConnected = new SimpleBooleanProperty(true);
+        bControllerConnected.set(false);
 
         // Start geogebra
         EventQueue.invokeAndWait(new Runnable() {
