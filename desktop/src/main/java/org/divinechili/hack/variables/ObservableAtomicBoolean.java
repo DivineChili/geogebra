@@ -15,6 +15,7 @@ public class ObservableAtomicBoolean extends AtomicBoolean implements Observable
     public ObservableAtomicBoolean() {
         super();
     }
+    public ObservableAtomicBoolean(boolean initialValue) { super(initialValue); }
 
     @Override
     public void addListener(ChangeListener listener) {
