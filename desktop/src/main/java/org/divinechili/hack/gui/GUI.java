@@ -8,6 +8,7 @@ import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
+import javafx.scene.control.CheckBox;
 import javafx.scene.control.Label;
 import javafx.scene.layout.GridPane;
 import javafx.scene.paint.Color;
@@ -26,6 +27,8 @@ public class GUI  {
     @FXML public Label controllerY;
     @FXML public Label controllerX2;
     @FXML public Label controllerY2;
+
+    @FXML public CheckBox tickActive;
 
     private boolean playingMidi = false;
 
@@ -50,16 +53,24 @@ public class GUI  {
             }
         });
 
+        tickActive.selectedProperty().addListener(new ChangeListener<Boolean>() {
+            @Override
+            public void changed(ObservableValue<? extends Boolean> observable, Boolean oldValue, Boolean newValue) {
+                    FXAppWrapper.bTick.set(newValue);
+            }
+        });
+
         FXAppWrapper.bControllerConnected.addListener(new ChangeListener() {
             @Override
-            public void changed(ObservableValue observable, Object oldValue, Object newValue) { if((Boolean)newValue) {
+            public void changed(ObservableValue observable, Object oldValue, Object newValue) {
+                if((Boolean)newValue) {
                     controllerStatus.setTextFill(Color.GREEN);
                     controllerStatus.setText("Connected!");
                     joystickView.setVisible(true);
                 } else {
-                    joystickView.setVisible(false);
                     controllerStatus.setTextFill(Color.RED);
                     controllerStatus.setText("Disconnected!");
+                    joystickView.setVisible(false);
                 }
             }
         });

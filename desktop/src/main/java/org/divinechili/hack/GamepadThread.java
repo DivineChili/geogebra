@@ -32,7 +32,9 @@ public class GamepadThread extends Thread
 
         while (true) {
             while (true) {
-                //jsManager.callJavaScript("tick", a);
+                if(FXAppWrapper.bTick.get())
+                    jsManager.callJavaScript("tick", a);
+
                 currState = controllers.getState(0);
 
                 if (!currState.isConnected) {

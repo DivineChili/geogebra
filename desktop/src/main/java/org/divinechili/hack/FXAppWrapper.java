@@ -1,5 +1,6 @@
 package org.divinechili.hack;
 
+import com.sun.org.apache.xpath.internal.operations.Bool;
 import geogebra.GeoGebra3D;
 import javafx.application.Application;
 import javafx.beans.property.BooleanProperty;
@@ -29,6 +30,7 @@ public class FXAppWrapper extends Application
     public static MidiSoundD midiSequencer = null;
 
     public static final ObservableAtomicBoolean bControllerConnected = new ObservableAtomicBoolean();
+    public static AtomicBoolean bTick = new AtomicBoolean(false);
 
     private boolean playingMidi = false;
 
