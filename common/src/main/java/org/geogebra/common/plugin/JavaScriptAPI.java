@@ -843,4 +843,6 @@ public interface JavaScriptAPI {
 			double xyScale, double xzScale, double xTickDistance, double yTickDistance, double zTickDistance);
 
 	public void printMsg(String message);
+
+	//public boolean playSound(String fileName);
 }

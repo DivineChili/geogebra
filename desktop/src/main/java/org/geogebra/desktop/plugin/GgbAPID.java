@@ -49,6 +49,8 @@ import org.geogebra.desktop.gui.util.ImageSelection;
 import org.geogebra.desktop.io.MyImageIO;
 import org.geogebra.desktop.main.AppD;
 import org.geogebra.desktop.util.UtilD;
+import org.geogebra.desktop.sound.MidiSoundD;
+
 
 /**
  * <h3>GgbAPI - API for PlugLets</h3>
@@ -385,4 +387,13 @@ public class GgbAPID extends GgbAPIJre {
 		return null;
 	}
 
+	@Override
+	public boolean playSound(String fileName) {
+		System.out.println("Playing sound: " + fileName);
+		//MidiSoundD sequencer = new MidiSoundD(null);
+
+
+
+		return true;
+	}
 }

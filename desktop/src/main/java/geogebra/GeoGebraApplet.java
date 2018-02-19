@@ -24,6 +24,8 @@ import org.geogebra.common.util.debug.Log;
 import org.geogebra.desktop.AppletImplementationInterface;
 import org.geogebra.desktop.AppletSplashScreen;
 import org.geogebra.desktop.main.AppletImplementation;
+import org.geogebra.desktop.sound.MidiSoundD;
+
 
 /**
  * GeoGebra applet
@@ -1068,4 +1070,15 @@ public class GeoGebraApplet extends JApplet implements JavaScriptAPI {
 	public void printMsg(String message) {
 		System.out.println(message);
 	}
+	/*
+    @Override
+    public boolean playSound(String fileName) {
+        System.out.println("Playing sound: " + fileName);
+        //MidiSoundD sequencer = new MidiSoundD(null);
+
+
+
+        return true;
+    }
+    */
 }
