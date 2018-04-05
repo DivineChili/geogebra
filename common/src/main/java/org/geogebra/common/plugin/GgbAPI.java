@@ -2287,8 +2287,12 @@ public abstract class GgbAPI implements JavaScriptAPI {
 	/**
 	 * Prints a debug message to console.
 	 */
-	@Override
+
 	public void printMsg(String message) {
 		System.out.println(message);
 	}
+
+    public boolean playSound(String fileName) {
+		return false;
+    }
 }
