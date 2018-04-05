@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":desktop:test" external.linked.project.path="$MODULE_DIR$/../../../desktop" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="geogebra" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
+    <output-test url="file://$MODULE_DIR$/../../../desktop/out/test/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../desktop/src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../../desktop/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../desktop/src/test/resources" type="java-test-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: junit:junit:4.+" level="project" />
+    <orderEntry type="module" module-name="editor-desktop_main" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.jogamp:jogl-all:natives-windows-i586:2.2.0" level="project" />
+    <orderEntry type="module" module-name="impl_main" />
+    <orderEntry type="module" module-name="keyboard-base_main" />
+    <orderEntry type="module" module-name="editor-base_main" />
+    <orderEntry type="module" module-name="renderer-base_main" />
+    <orderEntry type="module" module-name="giac-jni_main" />
+    <orderEntry type="module" module-name="renderer-desktop_main" />
+    <orderEntry type="library" name="Gradle: com.github.WilliamAHartman:Jamepad:1.1" level="project" />
+    <orderEntry type="library" name="Gradle: netscape.javascript:jsobject:1" level="project" />
+    <orderEntry type="library" name="Gradle: com.apple:mac_extensions:20040714" level="project" />
+    <orderEntry type="library" name="Gradle: com.ogprover:OpenGeoProver:20120725" level="project" />
+    <orderEntry type="library" name="Gradle: com.sun:jna:4.1.0" level="project" />
+    <orderEntry type="module" module-name="jogl2_main" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Program Files/Java/jdk1.8.0_162/jre/lib/ext/jfxrt.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: fr.ujf-grenoble:javagiac:natives-linux-amd64:59689" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: fr.ujf-grenoble:javagiac:natives-linux-i586:59689" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: fr.ujf-grenoble:javagiac:natives-windows-amd64:59689" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: fr.ujf-grenoble:javagiac:natives-windows-i586:59689" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: fr.ujf-grenoble:javagiac:natives-macosx-universal:59689" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.j2objc:annotations:1.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.findbugs:annotations:3.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.jogamp:gluegen-rt:2.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.jogamp:jogl-all:2.2.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.jogamp:jogl-all:natives-windows-amd64:2.2.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.jogamp:gluegen-rt:natives-windows-i586:2.2.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.jogamp:jogl-all:natives-linux-amd64:2.2.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.jogamp:gluegen-rt:natives-linux-amd64:2.2.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.jogamp:gluegen-rt:natives-linux-i586:2.2.0" level="project" />
+    <orderEntry type="module" module-name="common-jre_main" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.jogamp:gluegen-rt:natives-macosx-universal:2.2.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.jogamp:gluegen-rt:natives-windows-amd64:2.2.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.jogamp:jogl-all:natives-macosx-universal:2.2.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.jogamp:jogl-all:natives-linux-i586:2.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-io:9.3.0.M2" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-util:9.3.0.M2" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-api:9.0.5.v20130815" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-client:9.0.5.v20130815" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-common:9.0.5.v20130815" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-server:9.0.5.v20130815" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-servlet:9.0.5.v20130815" level="project" />
+    <orderEntry type="library" name="Gradle: intel.rssdk:libpxcclr:20150901" level="project" />
+    <orderEntry type="library" name="Gradle: intel.rssdk:libpxcclr:natives-windows-amd64:20150901" level="project" />
+    <orderEntry type="library" name="Gradle: intel.rssdk:libpxcclr:natives-windows-i586:20150901" level="project" />
+    <orderEntry type="library" name="Gradle: com.zspace:zspace:20151207" level="project" />
+    <orderEntry type="library" name="Gradle: com.zspace:zspace:natives-windows-i586:20151207" level="project" />
+    <orderEntry type="library" name="Gradle: com.zspace:zspace:natives-windows-amd64:20151207" level="project" />
+    <orderEntry type="library" name="Gradle: com.badlogicgames.gdx:gdx-jnigen:1.9.2" level="project" />
+    <orderEntry type="module" module-name="common_main" />
+    <orderEntry type="library" name="Gradle: com.github.javaparser:javaparser-core:2.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-http:9.0.5.v20130815" level="project" />
+  </component>
+  <component name="TestModuleProperties" production-module="desktop_main" />
+</module>
