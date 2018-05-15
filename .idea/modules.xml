@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PluginTest/PluginTest.iml" filepath="$PROJECT_DIR$/PluginTest/PluginTest.iml" group="Plugins" />
+      <module fileurl="file://$PROJECT_DIR$/GamepadSupportPlugin/GamepadSupportPlugin.iml" filepath="$PROJECT_DIR$/GamepadSupportPlugin/GamepadSupportPlugin.iml" group="Plugins" />
+      <module fileurl="file://$PROJECT_DIR$/MarioGebra/MarioGebra.iml" filepath="$PROJECT_DIR$/MarioGebra/MarioGebra.iml" group="Plugins" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common.iml" group="common" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-jre/common-jre.iml" filepath="$PROJECT_DIR$/.idea/modules/common-jre/common-jre.iml" group="common-jre" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-jre/common-jre_main.iml" filepath="$PROJECT_DIR$/.idea/modules/common-jre/common-jre_main.iml" group="common-jre" />

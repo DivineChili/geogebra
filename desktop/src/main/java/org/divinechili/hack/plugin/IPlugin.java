@@ -7,7 +7,11 @@ public interface IPlugin {
 
     String getPluginAuthor();
 
+    void preInitialization();
+    void postInitialization();
+    void cleanUp();
+
     GuiFactory getGuiFactory();
 
-    Boolean hasError();
+    boolean hasError();
 }

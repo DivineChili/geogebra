@@ -5,7 +5,6 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../retex/renderer-web/src/test">
       <sourceFolder url="file://$MODULE_DIR$/../../../../retex/renderer-web/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../../retex/renderer-web/src/test/resources" type="java-test-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

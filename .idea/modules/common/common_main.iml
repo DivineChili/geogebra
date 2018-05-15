@@ -9,7 +9,6 @@
     <content url="file://$MODULE_DIR$/../../../common/src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../../common/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../common/src/main/javacc" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../common/src/main/resources" type="java-resource" />
     </content>
     <content url="file://$MODULE_DIR$/../../../common/src/nonfree">
       <sourceFolder url="file://$MODULE_DIR$/../../../common/src/nonfree/resources" type="java-resource" />

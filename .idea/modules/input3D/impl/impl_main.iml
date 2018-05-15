@@ -5,7 +5,6 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../input3D/impl/src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../../../input3D/impl/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../../input3D/impl/src/main/resources" type="java-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -22,8 +21,8 @@
     <orderEntry type="library" name="Gradle: intel.rssdk:libpxcclr:20150901" level="project" />
     <orderEntry type="library" name="Gradle: com.zspace:zspace:20151207" level="project" />
     <orderEntry type="module" module-name="editor-base_main" />
-    <orderEntry type="module" module-name="renderer-base_main" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: intel.rssdk:libpxcclr:natives-windows-amd64:20150901" level="project" />
+    <orderEntry type="module" module-name="renderer-base_main" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: intel.rssdk:libpxcclr:natives-windows-i586:20150901" level="project" />
     <orderEntry type="library" name="Gradle: com.google.j2objc:annotations:1.0.2" level="project" />
     <orderEntry type="library" name="Gradle: com.google.code.findbugs:annotations:3.0.1" level="project" />

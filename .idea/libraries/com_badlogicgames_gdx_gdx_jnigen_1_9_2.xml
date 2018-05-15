@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="com.badlogicgames.gdx:gdx-jnigen:1.9.2" type="repository">
+    <properties maven-id="com.badlogicgames.gdx:gdx-jnigen:1.9.2" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/gdx-jnigen-1.9.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javaparser-core-2.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

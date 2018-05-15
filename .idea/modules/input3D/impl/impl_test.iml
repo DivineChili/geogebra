@@ -3,10 +3,7 @@
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
     <output-test url="file://$MODULE_DIR$/../../../../input3D/impl/out/test/classes" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../../../input3D/impl/src/test">
-      <sourceFolder url="file://$MODULE_DIR$/../../../../input3D/impl/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../../input3D/impl/src/test/resources" type="java-test-resource" />
-    </content>
+    <content url="file://$MODULE_DIR$/../../../../input3D/impl/src/test" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="impl_main" />
@@ -23,13 +20,13 @@
     <orderEntry type="library" name="Gradle: intel.rssdk:libpxcclr:20150901" level="project" />
     <orderEntry type="library" name="Gradle: com.zspace:zspace:20151207" level="project" />
     <orderEntry type="module" module-name="editor-base_main" />
-    <orderEntry type="module" module-name="renderer-base_main" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: intel.rssdk:libpxcclr:natives-windows-amd64:20150901" level="project" />
+    <orderEntry type="module" module-name="renderer-base_main" />
     <orderEntry type="library" name="Gradle: com.google.j2objc:annotations:1.0.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: intel.rssdk:libpxcclr:natives-windows-i586:20150901" level="project" />
     <orderEntry type="library" name="Gradle: com.google.code.findbugs:annotations:3.0.1" level="project" />
-    <orderEntry type="module" module-name="giac-jni_main" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.zspace:zspace:natives-windows-i586:20151207" level="project" />
+    <orderEntry type="module" module-name="giac-jni_main" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.zspace:zspace:natives-windows-amd64:20151207" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="impl_main" />

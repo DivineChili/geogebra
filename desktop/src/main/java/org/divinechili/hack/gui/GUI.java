@@ -6,29 +6,19 @@ import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.geometry.NodeOrientation;
-import javafx.geometry.Orientation;
-import javafx.geometry.Pos;
 import javafx.scene.Node;
 import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
-import javafx.scene.control.Label;
-import javafx.scene.control.TitledPane;
-import javafx.scene.layout.HBox;
-import javafx.scene.layout.Priority;
-import javafx.scene.layout.Region;
-import javafx.scene.layout.VBox;
-import javafx.scene.paint.Color;
-import javafx.scene.text.Text;
-import org.divinechili.hack.FXAppWrapper;
+import javafx.scene.layout.*;
+import org.divinechili.hack.Hack;
 import org.divinechili.hack.plugin.IPlugin;
 import org.divinechili.hack.plugin.PluginPane;
-
-import java.util.Iterator;
 
 public class GUI  {
 
     @FXML public Button exitButton;
     @FXML public VBox PluginOptionsBox;
+    @FXML public GridPane root;
 
     private boolean playingMidi = false;
 
@@ -52,7 +42,7 @@ public class GUI  {
                     @Override
                     public void changed(ObservableValue<? extends Boolean> observable, Boolean oldValue, Boolean newValue) {
                         System.out.println("Tick function is now " + (newValue? "enabled!" : "disabled!"));
-                        FXAppWrapper.bTick.set(true);
+                        Hack.bTick.set(true);
                     }
                 });
                 HBox sub_con = new HBox();
@@ -66,9 +56,9 @@ public class GUI  {
                     public void handle(ActionEvent event) {
                         playingMidi = !playingMidi;
                         if(playingMidi) {
-                            FXAppWrapper.midiSequencer.playMidiFile("");
+                            Hack.midiSequencer.playMidiFile("");
                         } else if (!playingMidi) {
-                            FXAppWrapper.midiSequencer.stop();
+                            Hack.midiSequencer.stop();
                         }
                     }
                 });
@@ -76,7 +66,7 @@ public class GUI  {
                 FireAlert.setOnAction(new EventHandler<ActionEvent>() {
                     @Override
                     public void handle(ActionEvent event) {
-                        FXAppWrapper.appRef.showMessage("Alert fired!!!");
+                        Hack.appRef.showMessage("Alert fired!!!");
                     }
                 });
 
@@ -95,6 +85,13 @@ public class GUI  {
         exitButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
+                for(IPlugin plugin : Hack.plugins) {
+                    try{
+                        plugin.cleanUp();
+                    } catch(NullPointerException e) {
+                        System.err.println("Plugin failed to shutdown. Forcing!");
+                    }
+                }
                 System.exit(0);
             }
         });
@@ -102,18 +99,17 @@ public class GUI  {
         PluginOptionsBox.getChildren().add(new PluginPane("Default Hack Options", guiFactory.constructGui()));
 
         // Loop through and construct GUI options pane for
-        Iterator iter = FXAppWrapper.plugins.iterator();
-        while (iter.hasNext()) {
-            IPlugin pf = (IPlugin) iter.next();
+        for (IPlugin pf : Hack.plugins) {
             try {
 
                 PluginOptionsBox.getChildren().add(new PluginPane(pf.getPluginName() + " [" + pf.getPluginAuthor() + "]",
                         pf.getGuiFactory().constructGui()));
 
             } catch (SecurityException secEx) {
-                System.err.println("plugin '"+pf.getClass().getName()+"' tried to do something illegal");
+                System.err.println("plugin '" + pf.getClass().getName() + "' tried to do something illegal");
             }
         }
-
+        Node gameGUI = Hack.gameController.getGUI().constructGui();
+        root.add(gameGUI, 0, 1, 1,2);
     }
 }

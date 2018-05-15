@@ -53,8 +53,10 @@ dependencies {
 	compile project(':jogl2')
 	compile project(':input3D:impl')
 	compile project(':giac-jni')
-    compile 'com.github.WilliamAHartman:Jamepad:1.1'
 	compile ext, files(jfxrtLocation)
+
+    compile 'com.github.WilliamAHartman:Jamepad:1.1'
+    compile 'commons-io:commons-io:2.5'
 
 	runtime "com.jogamp:jogl-all:$joglVersion:natives-linux-amd64",
         "com.jogamp:jogl-all:$joglVersion:natives-windows-i586",
@@ -76,7 +78,7 @@ dependencies {
 	testCompile 'junit:junit:4.+'
 }
 
-mainClassName = "org.divinechili.hack.FXAppWrapper"
+mainClassName = "org.divinechili.hack.Hack"
 
 run {
     // Copying JOGL related native JARs into the same directory where the non-native JAR takes place.
